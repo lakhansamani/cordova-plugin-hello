@@ -18,7 +18,7 @@ public class Hello extends CordovaPlugin{
 		if(action.equals("greet")){
 			String name = data.getString(0);
 			String message = "Hello" + name;
-			callback.sucess(message);
+			callback.success(message);
 			return true;
 		}
 		else{
